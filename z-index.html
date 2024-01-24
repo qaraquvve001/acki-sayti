@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            position: relative;
+        }
+        .three{
+            top:50px;
+            left:50px;
+            z-index:1;
+        }
+        .seven{
+            left:-120px;
+            top:25px;
+            z-index:2;
+        }
+        .ace{
+            left:-295px;
+            z-index:3;
+        }
+        .card:hover{
+            z-index:4;
+        }
+        
+    </style>
+</head>
+<body>
+    <img src="img/three.jpeg"  class="card three">
+    <img src="img/seven.jpeg"  class="card seven">
+    <img src="img/ace.jpeg" class="card ace">
+</body>
+</html>

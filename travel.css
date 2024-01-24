@@ -1,0 +1,396 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.esas img {
+    width: 100%;
+    height: 650px;
+}
+
+.esas {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ust {
+    position: absolute;
+    background-color: white;
+    top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 60px;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ust1,
+li {
+    margin: 0 20px;
+    color: black;
+    text-transform: capitalize;
+}
+
+a {
+    color: black;
+}
+
+.alt {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 650px;
+    padding-top: 120px;
+}
+
+.sol {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sol h1 {
+    margin-bottom: 40px;
+    margin-left: 20px;
+    color: white;
+    font-size: 50px;
+}
+
+.pp {
+    width: 90%;
+    min-height: 50px;
+    position: relative;
+    padding-left: 20px;
+    color: white;
+}
+
+.pp p::before {
+    position: absolute;
+    left: 0;
+    top: -20px;
+    display: inline-block;
+    content: '';
+    width: 3px;
+    height: 80px;
+    background-color: silver;
+}
+
+.sag {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.kub {
+    width: 70%;
+    height: 90%;
+    background-color: white;
+    margin-right: 15px;
+    margin-top: 20px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ad {
+    width: 95%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.ad1 {
+    width: 95%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ad1 h3 {
+    margin-bottom: 10px;
+    color: darkcyan;
+    font-size: 20px;
+}
+
+.ad1 input {
+    padding: 9px 120px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 5px;
+    background-color: rgb(243, 240, 240);
+    margin-right:10px;
+    width:100%;
+}
+
+.ad2 {
+    width: 95%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.ad2 h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: darkcyan;
+}
+
+.ad22 {
+    width: 48%;
+}
+
+.ad22 input {
+    padding: 9px 27px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    width:100%;
+}
+
+.ad222 {
+    width: 48%;
+}
+
+.ad222 input {
+    padding: 9px 27px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(243, 241, 241);
+    width:100%;
+}
+
+.ad3 {
+    width: 95%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ad3 h3 {
+    margin-bottom: 10px;
+    color: darkcyan;
+    font-size: 20px;
+}
+
+.ad3 input {
+    padding: 9px 120px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 5px;
+    background-color: rgb(243, 240, 240);
+    width:100%;
+}
+
+.ad4 {
+    width: 95%;
+    height: 20%;
+}
+
+.ad4 input {
+    margin-top: 19px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    background-color: rgb(9, 173, 173);
+}
+
+.esas1 {
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.esas11 {
+    width: 95%;
+}
+
+.soz {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soz h2 {
+    font-size: 45px;
+}
+
+.sekil {
+    min-height: 580px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sekil1 {
+    width: 30%;
+    height:530px;
+    display:flex;
+    flex-direction:column;
+    border:1px solid silver;
+}
+.a1{
+    width:100%;
+    height:100%;
+    background-image: url(img/indir.jpg);
+    background-size:cover;
+}
+.a2{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.a2 p{
+    margin-left:7px;
+    margin-right:7px;
+}
+.ulduz{
+    width:290px;
+    height:70px;
+    background-image: url(img/ulduz.jpg);
+    background-size:cover;
+    background-position:0% 50%;
+    
+}
+.a2 h2{
+    margin-top:10px;
+    margin-bottom:11px;
+}
+.a2 input{
+    padding:10px 30px;
+    background-color:rgb(7, 167, 167);
+    color:white;
+    font-size:20px;
+    margin-top:15px;
+    border-radius:5px;
+    border:none;
+}
+
+
+.sekil2 {
+    width: 30%;
+    height:530px;
+    display:flex;
+    flex-direction:column;
+    border:1px solid silver;
+}
+.b1{
+    width:100%;
+    height:100%;
+    background-image: url(img/sekil2.jpg);
+    background-size:cover;
+}
+.b2{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.b2 p{
+    margin-left:7px;
+    margin-right:7px;
+}
+.ulduz{
+    width:290px;
+    height:70px;
+    background-image: url(img/ulduz.jpg);
+    background-size:cover;
+    background-position:0% 50%;
+}
+.b2 h2{
+    margin-top:10px;
+    margin-bottom:11px;
+}
+.b2 input{
+    padding:10px 30px;
+    background-color:rgb(7, 167, 167);
+    color:white;
+    font-size:20px;
+    margin-top:15px;
+    border-radius:5px;
+    border:none;
+}
+
+.sekil3 {
+    width: 30%;
+    height:530px;
+    display:flex;
+    flex-direction:column;
+    border:1px solid silver;
+}
+
+.c1{
+    width:100%;
+    height:100%;
+    background-image: url(img/sekil3.jpg);
+    background-size:cover;
+    background-position:0% 0%;
+}
+.faiz{
+    width:11%;
+    height:10%;
+    background-color:rgb(216, 3, 3);
+    margin-left:5px;
+    margin-top:5px;
+    color:white;
+}
+.c2{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.c2 p{
+    margin-left:7px;
+    margin-right:7px;
+}
+.ulduz{
+    width:290px;
+    height:70px;
+    background-image: url(img/ulduz.jpg);
+    background-size:cover;
+    background-position:0% 50%;
+}
+.c2 h2{
+    margin-top:10px;
+    margin-bottom:11px;
+}
+.c2 input{
+    padding:10px 30px;
+    background-color:rgb(7, 167, 167);
+    color:white;
+    font-size:20px;
+    margin-top:15px;
+    border-radius:5px;
+    border:none;
+}
